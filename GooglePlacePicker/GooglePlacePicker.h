@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char GooglePlacePickerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GooglePlacePicker/PublicHeader.h>
 
-
+#import <GooglePlacePicker/GMSPlacePicker.h>
+#import <GooglePlacePicker/GMSPlacePickerConfig.h>

@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		B9EE04781D9D9011003E7610 /* GooglePlacePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE04761D9D9011003E7610 /* GooglePlacePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9EE047F1D9D9029003E7610 /* GooglePlacePicker in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE047E1D9D9029003E7610 /* GooglePlacePicker */; };
+		B9EE04821D9D9032003E7610 /* GMSPlacePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE04801D9D9032003E7610 /* GMSPlacePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9EE04831D9D9032003E7610 /* GMSPlacePickerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE04811D9D9032003E7610 /* GMSPlacePickerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9EE04861D9D90D1003E7610 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04851D9D90D1003E7610 /* GoogleMaps.framework */; };
+		B9EE04881D9D90D3003E7610 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04871D9D90D3003E7610 /* GooglePlaces.framework */; };
+		B9EE048A1D9D90E7003E7610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04891D9D90E7003E7610 /* CoreGraphics.framework */; };
+		B9EE048E1D9D9102003E7610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE048D1D9D9102003E7610 /* Foundation.framework */; };
+		B9EE04901D9D9118003E7610 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE048F1D9D9118003E7610 /* CoreLocation.framework */; };
+		B9EE04921D9D9120003E7610 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04911D9D9120003E7610 /* GoogleMapsBase.framework */; };
+		B9EE04931D9D912D003E7610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE048B1D9D90F2003E7610 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B9EE04731D9D9011003E7610 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GooglePlacePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EE04761D9D9011003E7610 /* GooglePlacePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GooglePlacePicker.h; sourceTree = "<group>"; };
 		B9EE04771D9D9011003E7610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9EE047E1D9D9029003E7610 /* GooglePlacePicker */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GooglePlacePicker; sourceTree = "<group>"; };
+		B9EE04801D9D9032003E7610 /* GMSPlacePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePicker.h; sourceTree = "<group>"; };
+		B9EE04811D9D9032003E7610 /* GMSPlacePickerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePickerConfig.h; sourceTree = "<group>"; };
+		B9EE04851D9D90D1003E7610 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Carthage/Build/iOS/GoogleMaps.framework; sourceTree = "<group>"; };
+		B9EE04871D9D90D3003E7610 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Carthage/Build/iOS/GooglePlaces.framework; sourceTree = "<group>"; };
+		B9EE04891D9D90E7003E7610 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9EE048B1D9D90F2003E7610 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9EE048D1D9D9102003E7610 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9EE048F1D9D9118003E7610 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B9EE04911D9D9120003E7610 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Carthage/Build/iOS/GoogleMapsBase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +41,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9EE04931D9D912D003E7610 /* UIKit.framework in Frameworks */,
+				B9EE04901D9D9118003E7610 /* CoreLocation.framework in Frameworks */,
+				B9EE048E1D9D9102003E7610 /* Foundation.framework in Frameworks */,
+				B9EE048A1D9D90E7003E7610 /* CoreGraphics.framework in Frameworks */,
+				B9EE04861D9D90D1003E7610 /* GoogleMaps.framework in Frameworks */,
+				B9EE04921D9D9120003E7610 /* GoogleMapsBase.framework in Frameworks */,
+				B9EE04881D9D90D3003E7610 /* GooglePlaces.framework in Frameworks */,
+				B9EE047F1D9D9029003E7610 /* GooglePlacePicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +60,7 @@
 			children = (
 				B9EE04751D9D9011003E7610 /* GooglePlacePicker */,
 				B9EE04741D9D9011003E7610 /* Products */,
+				B9EE04841D9D90D1003E7610 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +75,27 @@
 		B9EE04751D9D9011003E7610 /* GooglePlacePicker */ = {
 			isa = PBXGroup;
 			children = (
+				B9EE047E1D9D9029003E7610 /* GooglePlacePicker */,
+				B9EE04801D9D9032003E7610 /* GMSPlacePicker.h */,
+				B9EE04811D9D9032003E7610 /* GMSPlacePickerConfig.h */,
 				B9EE04761D9D9011003E7610 /* GooglePlacePicker.h */,
 				B9EE04771D9D9011003E7610 /* Info.plist */,
 			);
 			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		B9EE04841D9D90D1003E7610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9EE04911D9D9120003E7610 /* GoogleMapsBase.framework */,
+				B9EE048F1D9D9118003E7610 /* CoreLocation.framework */,
+				B9EE048D1D9D9102003E7610 /* Foundation.framework */,
+				B9EE048B1D9D90F2003E7610 /* UIKit.framework */,
+				B9EE04891D9D90E7003E7610 /* CoreGraphics.framework */,
+				B9EE04871D9D90D3003E7610 /* GooglePlaces.framework */,
+				B9EE04851D9D90D1003E7610 /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +105,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9EE04831D9D9032003E7610 /* GMSPlacePickerConfig.h in Headers */,
+				B9EE04821D9D9032003E7610 /* GMSPlacePicker.h in Headers */,
 				B9EE04781D9D9011003E7610 /* GooglePlacePicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,8 +289,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GooglePlacePicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GooglePlacePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,8 +311,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GooglePlacePicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GooglePlacePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
